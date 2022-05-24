@@ -6,4 +6,4 @@ ec2_resource.create_instances(ImageId='ami-03657b56516ab7912',
       InstanceType='t2.micro',
     MaxCount=4,
       MinCount=3)
-"""
+
