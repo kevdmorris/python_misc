@@ -5,6 +5,8 @@ x=ec2_client.describe_instances()
 data=x["Reservations"][0]
 data_instance=data["Instances"]
 for i in range (len(data_instance)):
-    print(f"instance id is {data_instance[i]['InstanceId']}")
+    print (data_instance[i]) # verbose data_instance info
+    #print(f"instance id is {data_instance[i]['InstanceId']}")
     
-    # Need to keep
+
+
