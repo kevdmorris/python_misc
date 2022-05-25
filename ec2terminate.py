@@ -12,6 +12,6 @@ for instances in data:
         li.append(instance_id)
         
     
-ec2_client.terminate_instances(InstanceIds=li)"""
-Your module description
-"""
+ec2_client.terminate_instances(InstanceIds=li)
+
+#Need to save this
