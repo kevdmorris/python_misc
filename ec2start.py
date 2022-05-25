@@ -1,4 +1,4 @@
-# Terminate all EC2 instances
+# Start all EC2 instances
 
 import boto3
 ec2_client=boto3.client("ec2")
@@ -12,4 +12,4 @@ for instances in data:
         li.append(instance_id)
         
     
-ec2_client.terminate_instances(InstanceIds=li)
+ec2_client.start_instances(InstanceIds=li)
