@@ -4,8 +4,8 @@ import boto3
 def create_marvel_table(dynamodb=None):
     
   dynamodb=boto3.resource('dynamodb',
-    aws_access_key_id='AKIASZVX4TRRA6NWBMF4',
-    aws_secret_access_key='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',
+    aws_access_key_id='******',
+    aws_secret_access_key='*******',
     
 # Table defination
     table = dynamodb.create_table(
